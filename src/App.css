@@ -1,38 +1,138 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.main{
+  width: 700px;
+  border-radius: 15px;
+  background-color: #01579b;
+  margin: auto;
+}
+
+.header{
+  background-color: #424242;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 28px;
+  border-radius: 15px; 
+}
+
+.day{
+  padding: 15px;
+  color: whitesmoke; 
+  font-size: 24px;
+  font-weight: 600;
+}
+
+body{  
+  background: url("./assets/pexels-eberhard-grossgasteiger-1367179.jpg") no-repeat center fixed;     
+  background-size: cover;
+  height: 100vh; 
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{  
   text-align: center;
-}
+  font-size: 7.5em;   
+} 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weather-intro{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.weather-intro{
+  margin-left: 3.5rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  line-height: 20%;
+}
+
+.weather-intro .weather-day{
+  font-size: 18px;
+  text-transform: uppercase;  
+}
+
+.weather-greeting{
+  font-size: 24px;
+}
+
+.weather-location{
+  margin-left: 3.5rem;
+}
+
+.search{
+  margin-top: 30px;
+  height: 30px;
+  margin-left: 3.5rem;
+}
+
+.input{  
+  height: 30px;
+  margin-left: 3.5rem;
+}
+
+.sun{  
+  margin-top: 10px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.details{
+  background-color: grey;  
+  height: 300px;
+  opacity: 0.6;
+}
+
+.btn{
+  margin-left: 3.5rem;
+  margin-bottom: 0.5rem;;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  width: 104px;
+  height: 31px;
+  border-radius: 10px;
+}
+
+.less-container{
+  margin-left: 3.5rem;   
+}
+
+.less-container > p{
+  color: black;
+}
+
+.less-container .location{
+  padding-top: 10px;
+}
+
+.input-css {    
+  width: 45%;
+  padding: 8px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-css{
+  display: block;
+  margin-right: auto;
+  margin-left: auto; 
+  margin-top: 10px;
+  width: 40%;
+  background-color: grey;
   color: white;
+  padding: 10px 10px;  
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.submit-css:hover{
+  background-color: white;
+  color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description{
+  text-transform: uppercase;
 }
