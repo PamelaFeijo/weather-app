@@ -22,6 +22,8 @@ To Visit App:
 
 `localhost:3000`
 
+## Project Screenshot
 
+![screenshot](src/assets/Figma.png)
 
 
