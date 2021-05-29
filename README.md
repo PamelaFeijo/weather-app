@@ -24,6 +24,8 @@ To Visit App:
 
 ## Project Screenshot
 
+Mockup designed with Figma.
+
 ![screenshot](src/assets/Figma.png)
 
 
